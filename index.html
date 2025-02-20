@@ -7,49 +7,13 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="HTML5 Example Page">
-  <meta property="og:url" content="https://shiny-diski.com.ua/uk/goodyear-eagle-sport-2-205-55-r16-91v">
-  <meta property="og:type" content="product">
-  <meta property="og:title" content="Апдейтнута шина">
-  <meta property="og:image" content="
-    https://shiny-diski.com.ua/media/images/thumbs/Rip8K5AOAnVr.500x500.jpg">
-<meta property="og:locale" content="ru_UA">
-<meta property="og:site_name" content="Шини Goodyear Eagle Sport 2 205/55 R16 91V">
-<meta property="og:description" content="Купити гуму Goodyear Eagle Sport 2 205 55 R16 91V за найкращою ціною ⚡️ Відгуки на шини Goodyear Eagle Sport 2 205 55 R16 91V 👉 Великий вибір Шин і Дисків ✔️ Розширена гарантія ✈️ Доставка по всій Україні.">
-
+  <style>
+    #price::before {
+  content: "300$";
+}
+  </style>
 </head>
 <body>
- <meta content="2897.00" property="product:price:amount">
- <meta content="UAH" property="product:price:currency">
- <meta content="В наявності" property="product:availability">
- <meta content="2897.00" itemprop="price">
-  Hello world 5
-  <input type="hidden" name="product__265635__price" value="2897.0" class="js-product-price">
-  <input type="hidden" name="product__265635__price" value="2897,0">
-  <span class="standard-price js-price-sorting">2 897 ₴</span>
-  <script>
-  document.addEventListener("DOMContentLoaded", function() {
-        window.dataLayer = window.dataLayer || [];
-        var price = ' \
-                 \
-                2897,0 \
-            ';
-        var brand = 'Goodyear';
-
-        dataLayer.push({
-            'event': 'view_item',
-            'ecommerce': {
-                'items': [
-                    {
-                        'item_name': 'Goodyear Eagle Sport 2 205/55 R16 91V',     
-                        'item_id': '265635',
-                        'price': parseInt(price.trim()),
-                        'item_brand': brand.trim(),
-                        'item_category': 'Шини'
-                    }
-                ]
-            }
-        });
-    });
-    </script>
+ Price <p id="price"></p>
 </body>
 </html>
